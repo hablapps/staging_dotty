@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m[34mTest run started[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest2[0m.[36mbasics[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest2[0m.[36mbasics[0m finished, took 0.073 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest2[0m.[36mTaglessFinalInterpreter[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest2[0m.[36mTaglessFinalInterpreter[0m finished, took 0.359 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest2[0m.[36mADTInterpreter[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest2[0m.[36mADTInterpreter[0m finished, took 0.24 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest2[0m.[36mpowerTest[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest2[0m.[36mpowerTest[0m finished, took 0.158 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest2[0m.[36mavoidCapture[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTest2[0m.[36mavoidCapture[0m finished, took 0.23 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 5 total, 1.07s[0m[0m

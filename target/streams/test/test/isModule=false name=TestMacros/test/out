@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0m[34mTest run started[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTestMacros[0m.[36mt1[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest [33mTestMacros[0m.[31mt1[0m failed: expected:<-1> but was:<4>, took 0.489 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest [33mTestMacros[0m.[36mt1[0m finished, took 0.491 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0m[34mTest run finished: [0m[31m1 failed[0m[34m, [0m[34m0 ignored[0m[34m, 1 total, 0.495s[0m[0m

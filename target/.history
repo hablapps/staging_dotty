@@ -1,0 +1,19 @@
+exit
+run
+~test:compile
+console
+run
+:reset
+console
+run
+Expr(1)
+console
+~test:compile
+~test
+~test Test1
+~testOnly Test1
+~testOnly Test2
+test:console
+~testOnly Test2
+~test
+~testOnly TestMacros
