@@ -32,9 +32,19 @@ class Test2 {
       run(rec(n, Expr(z)))
 
     withQuoteContext{
-      println(rec(3, Expr(0)).show)
+      println(rec(4, Expr(0)).show)
     }
     assertEquals(recAux(4,0), 10)
+
+    // Wrong pretty print
+    assertEquals(
+    ((x: scala.Int) =>
+      ((x: scala.Int) =>
+        ((x: scala.Int) =>
+          ((x: scala.Int) =>
+            x.+(x.+(x.+(x.+(0))))).apply(1)).apply(2)).apply(3)).apply(4), 4)
+
+
   }
 
   @Test def powerTest(): Unit = {

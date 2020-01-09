@@ -40,4 +40,31 @@ object TestMacrosDef {
       case _ => Expr(0)
     }}
 
+  inline def curryHoward(f: [A, B] => (A => B) => A => B): Int =
+    ${curryHowardImpl('f)}
+
+  def curryHowardImpl(
+    f: Expr[[A, B] => (A => B) => A => B])(given QuoteContext): Expr[Int] = {
+    println(s"code: ${f.show}")
+    f match {
+      case '{[$tA, $tB] => (f: $tC) => ($body: $tF)} =>
+      // if tA == tC && tA == tE && tB == tD =>
+        Expr(0)
+    }
+  }
+
+  def curryHowardImpl1[A: Type, B: Type](
+    f: Expr[A => B])(given QuoteContext): Expr[Int] = {
+    println(s"code: ${f.show}")
+    f match {
+      // case '{(f: A) => $body: B} =>
+      // case '{(f: $tA => $tB) => (a: $tC) => ($body: $tF)} =>
+      // if tA == tC && tA == tE && tB == tD =>
+      case '{($f1: $tA => $tB)} =>
+        Expr(0)
+      case _ =>
+        Expr(-1)
+    }
+  }
+
 }
