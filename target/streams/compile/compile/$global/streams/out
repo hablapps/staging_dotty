@@ -1,5 +1,0 @@
-[0m[[0m[33mwarn[0m] [0m[0m[33m-- Deprecation Warning: /Users/jserrano/Documents/staging/src/main/scala/Main.scala:37:16 [0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m37 |[0m    [33mif[0m (n == [31m0[0m) [31m1.0[0m.toExpr [34m// toExpr lifts 1.0 to '{1.0}[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m   |                [33m^[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m   |[33mmethod[0m [35mtoExpr[0m in [33mobject[0m [35mExprOps[0m is deprecated: Use scala.quoted.Expr.apply instead[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
